@@ -30,12 +30,12 @@ read condition
 echo $condition
 done
 
-echo pick a number from 1-10
+echo How many Hot toys I own? Hint scale from 1 to 10
 read number
-if [ $number = 7 ]
+if [ $number = 3 ]
 then
-echo you chose the correct number
+echo you guessed correctly i own 3
 else
-echo you chose the wrong number
+echo you guessed wrong
 fi
-echo the number was 7
+echo I own 3 hot toys total
